@@ -4,10 +4,50 @@ font-family: 'Bitter', serif;
 font-family: 'Work Sans', sans-serif;
 
 
-/*  nav style started */
 
 
-/* banner styles started */
+
+/* nav styles started */
+.nav{
+    max-width: 1200px;
+    height: 100px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-title{
+    
+
+}
+.nav-img{
+    height: 20px;
+}
+.nav h2{
+    align-items: center;
+}
+.nav-bar{
+    display: flex;
+    list-style: none;
+    
+
+}
+.nav-bar li{
+    margin-right: 50px;
+    text-align: center;
+}
+/* .nav-bar-img{
+    height: 22px;
+    align-items: center;
+    align-items: center;
+    align-content: center; */
+}
+
+
+
+/* banner style started */
+
 .banner {
     background-color: rgb(239, 245, 247);
 
@@ -228,6 +268,28 @@ font-family: 'Work Sans', sans-serif;
     -webkit-background-clip: text;
 }
 
+/* game icon box styles */
+.game-icons{
+    max-width: ;width: 1100px;
+    height: 300px;
+    margin: 10px auto;
+
+}
+.game-icon-container{
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.game-icon-container img{
+    text-align: center;
+    align-items: center;
+    margin: 2px;
+}
+
 
 /* footer section style */
 
@@ -243,6 +305,9 @@ font-family: 'Work Sans', sans-serif;
     margin: 20px auto;
     text-align: center;
     padding: 20px;
+}
+.footer-img{
+    height: 22px;
 }
 .footer ul{
     display: flex;
