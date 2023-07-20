@@ -233,37 +233,47 @@ font-family: 'Work Sans', sans-serif;
 
 .footer{
     margin: 0px;
-    height: 500px;
-    background-color: black;
-}
-.footer ul{
-
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-}
-.footer-content h2{
-    align-items: center;
-    margin: 0px auto;
-}
-.special{
-    color: palevioletred;
-
+    height: 400px;
+    background-color: rgb(38, 6, 103);
 }
 .footer-content{
     max-width: 800px;
     color: aliceblue;
     font-size: 1rem;
-    margin: 5px auto;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+}
+.footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 30px;
+
+   
+}
+.footer-content h2{
+    size: 30px;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.special{
+    color: palevioletred;
 
 }
-.footer-content ul > li{
-    
-    
+.icon-box img{
+    border-radius: 10px;
+    margin: 15px;
 }
-.footer ul> li{
+.footer-terms{
+    margin: 20px;
+    display: flex;
+    list-style: none;
     justify-content: space-evenly;
 }
+
+
 
 
 
